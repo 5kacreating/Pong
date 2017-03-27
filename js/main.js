@@ -21,7 +21,7 @@ window.onload = function()
 	canvas.height = c_height;
 	player = new Player(40, (c_height/2), 0.8, "blue", p_width, p_height);
 	player.draw();
-	enemy = new Player(c_width-40, (c_height/2), 1.5, "red", p_width, p_height);
+	enemy = new Player(c_width-40, (c_height/2), 2, "red", p_width, p_height);
 	enemy.draw();
 	reset_ball(2);
 
