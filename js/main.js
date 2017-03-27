@@ -134,6 +134,5 @@ function update()
 	ball.update();
 	player.draw();
 	ball.draw();
-	enemy.update();
 	enemy.draw();
 }
